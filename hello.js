@@ -1,9 +1,4 @@
-function greeter(person) {
-    return "Hello " + person + "!";
+function greeter (person: string) {
+  return `Hello ${person}!`
 }
-
-
-
-
-
-console.log(greeter('Hello World!!!!'));
+console.log(greeter('Hello World!!!!'))
